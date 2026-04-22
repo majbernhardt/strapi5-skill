@@ -30,7 +30,7 @@
 
 ```bash
 # Клонируй в директорию скиллов
-git clone https://github.com/yourusername/strapi5-skill.git ~/.agents/skills/strapi5
+git clone https://github.com/majbernhardt/strapi5-skill.git ~/.agents/skills/strapi5
 ```
 
 ### Использование
@@ -84,10 +84,11 @@ use skill strapi5
 ## 🛠️ Структура
 
 ```
-strapi5/
+strapi5-skill/
 ├── SKILL.md          # Основное содержание скилла
 ├── GENERATION.md     # Метаданные и changelog
 ├── README.md         # Этот файл
+├── LICENSE           # MIT лицензия
 └── references/       # Справочные материалы
     ├── api-quick-reference.md
     ├── field-types.md
